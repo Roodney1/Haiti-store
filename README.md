@@ -1,25 +1,21 @@
-# HaitiBoutik — boutique officielle
+# HaitiBoutik
 
-Nouvelle base propre du site HaitiBoutik.
+Boutique vitrine statique, en français, conçue pour présenter une sélection de 20 accessoires électroniques dont le prix converti est inférieur à 10 000 GDS.
 
-## Inclus
-- Interface en français, responsive mobile et ordinateur.
-- Une seule boutique officielle; aucune création de boutique client.
-- Catalogue de démonstration et prix indicatifs en GDS.
-- Panier navigateur.
-- Formulaire qui prépare un récapitulatif de commande à copier.
-- Aucun paiement ni envoi de commande réel dans cette version.
+## Contenu
+- Logo SVG HaitiBoutik.
+- Catalogue filtrable de 20 produits référencés publiquement chez Nuvoteq.
+- Prix USD convertis à titre indicatif en GDS au taux de 1 USD = 131,20 GDS (23 novembre 2026).
+- Liens vers les fiches sources des produits.
+- Panier local et récapitulatif copiable.
+- Graphique de répartition des références par catégorie (pas des ventes).
 
-## Avant l'ouverture commerciale
-1. Remplacer les exemples par des produits, prix et stocks vérifiés.
-2. Vérifier les fournisseurs, livraison directe, délais, retours et coûts.
-3. Ajouter un backend sécurisé et une base de données pour les commandes.
-4. Intégrer un prestataire de paiement disponible dans les pays visés.
-5. Tester commissions, remboursements et rapprochement des paiements.
-6. Ajouter coordonnées, politique de confidentialité, conditions de vente et retours.
+## Transparence
+Nuvoteq est la source publique consultée pour les références et prix. Aucun partenariat fournisseur ou accord de livraison directe n'est confirmé. Les prix, stocks, taxes, frais et délais doivent être vérifiés avant commande. Les conversions ne comprennent ni livraison ni taxes. Le panier et le formulaire sont locaux : aucune commande n'est envoyée à un serveur, aucun paiement n'est collecté.
 
-## Déploiement Vercel
-Site statique avec index.html à la racine. Importer le dépôt dans Vercel avec Framework Preset Other et Root Directory ./. Aucun build command n'est requis.
-
-## Important
-MonCash, NatCash et les cartes sont des options envisagées, pas des intégrations actives. Le formulaire ne transmet aucune donnée à un serveur.
+## À finaliser avant l'ouverture commerciale
+- Confirmer l'autorisation de revendre ou d'afficher les produits et leurs photos.
+- Obtenir un accord fournisseur écrit, prix de gros, disponibilité, modalités de livraison et retours.
+- Ajouter backend sécurisé, base de données, authentification client et administration.
+- Intégrer un prestataire de paiement autorisé, puis tester les remboursements et la sécurité.
+- Ajouter les informations légales, contact et politique de confidentialité.
